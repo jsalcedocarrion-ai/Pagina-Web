@@ -1,0 +1,1165 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de la Propiedad | Santo Domingo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="index">
+    <!-- Pantalla de carga -->
+    <div id="loader" class="loader-bg">
+        <div class="loader-content">
+            <img src="assets/logo-carga.png" alt="Logo de carga" class="loader-icon">
+            <h2>Registro de la Propiedad</h2>
+            <p>Empresa Pública Municipal Registro de la Propiedad del Cantón Santo Domingo</p>
+        </div>
+    </div>
+    <!-- HEADER -->
+    <header class="main-header">
+        <div class="container header-flex">
+            <a href="#" class="logo">
+                <img src="assets/logo-registro-2.png" alt="Logo Registro de la Propiedad" class="logo-img">
+            </a>
+            <nav class="main-nav" id="main-nav">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li class="dropdown">
+                        <a href="#" onclick="return false;">Institución</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="quienes-somos.html">Quiénes somos</a></li>
+                            <li><a href="historia.html">Historia</a></li>
+                            <li><a href="ordenanzas.html">Ordenanzas</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="https://servicios.registrodelapropiedadsd.gob.ec/ventanilla/login.xhtml" target="_blank">Ventanilla Online</a></li>
+                    <li><a href="servicios.html">Servicios</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                    <li class="dropdown">
+                        <a href="#" onclick="return false;">Transparencia</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="transparencia.html">LOTAIP</a></li>
+                            <li><a href="rendicion-cuentas.html">Rendición de Cuentas</a></li>
+                            <li><a href="transparencia-anual.html">SISPTENKA</a></li>
+                            <li><a href="sentencias-resoluciones.html">Sentencias y Resoluciones</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <i class='bx bx-menu mobile-menu-toggle' id="mobile-menu-toggle"></i>
+        </div>
+    </header>
+    <main>
+        <!-- HERO SECTION -->
+        <section class="hero-section">
+            <div class="hero-bg">
+                <iframe class="hero-video" 
+                    src="https://www.youtube.com/embed/7rWAXrBODlQ?autoplay=1&mute=1&loop=1&playlist=7rWAXrBODlQ&controls=0&showinfo=0&rel=0&modestbranding=1&iv_load_policy=3&fs=0&disablekb=1&start=0&end=0"
+                    frameborder="0" 
+                    allow="autoplay; encrypted-media" 
+                    allowfullscreen
+>
+                </iframe>
+            </div>
+            <div class="hero-content">
+                <h1><span>Trabajamos por tu propiedad, nuestra prioridad</span></h1>
+                <p>Cada título cuenta una historia de perseverancia. La nuestra es hacerla oficial.</p>
+                <div class="hero-actions">
+                    <a href="servicios.html" class="btn btn-secondary">Conoce Nuestros Servicios</a>
+                    <a href="https://servicios.registrodelapropiedadsd.gob.ec/ventanilla/login.xhtml" target="_blank" class="btn btn-primary">Acceder a Ventanilla Online</a>
+                </div>
+            </div>
+        </section>
+        <!-- SERVICIOS DESTACADOS -->
+        <section class="services section-container">
+            <div class="section-content">
+            <div class="container">
+                <div>
+                    <h2 class="section-title">Nuestros Servicios</h2>
+                    <p>Accede a nuestros servicios registrales de forma rápida y segura</p>
+                </div>
+                <div class="services-grid">
+                    <!-- Certificado de Gravamen -->
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <img src="assets/gravamenes.png" alt="Certificado de Gravamen" class="service-icon">
+                            </div>
+                            <div class="flip-card-back">
+                                <h3>Certificado de Gravamen</h3>
+                                <p>Emisión de certificados generales, historia de dominio y gravamen de tu bien inmueble con validez legal.</p>
+                                <a href="servicios.html" class="btn">Ver más</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Certificado de Bienes -->
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <img src="assets/bienes.png" alt="Certificado de Bienes" class="service-icon">
+                            </div>
+                            <div class="flip-card-back">
+                                <h3>Certificado de Bienes</h3>
+                                <p>Consulta y certifica los bienes inmuebles inscritos a tu nombre en Santo Domingo de forma segura.</p>
+                                <a href="servicios.html" class="btn">Ver más</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                    <!-- Inscripciones -->
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <img src="assets/inscripciones.png" alt="Inscripciones" class="service-icon">
+                            </div>
+                            <div class="flip-card-back">
+                                <h3>Inscripciones</h3>
+                                <p>Inscripción de actos y contratos administrativos y judiciales con validez legal y seguridad jurídica.</p>
+                                <a href="servicios.html" class="btn">Ver más</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- VIDEO DE RENDICIÓN DE CUENTAS -->
+        <section class="video-rendicion-section section-container">
+            <div class="section-content">
+            <div class="container">
+                <div>
+                    <h2>Rendición de Cuentas 2024</h2>
+                    <p>Conoce nuestro trabajo y compromiso con la transparencia</p>
+                </div>
+                
+                <!-- Video de YouTube con miniatura real -->
+                <div class="youtube-video-container" onclick="openVideoModal('98gW1BwePnU', 'Rendición de Cuentas 2024', 'Conoce nuestro trabajo y compromiso con la transparencia')">
+                    <div class="video-wrapper">
+                        <!-- Miniatura real del video de YouTube -->
+                        <img src="https://img.youtube.com/vi/98gW1BwePnU/maxresdefault.jpg" alt="Rendición de Cuentas 2024">
+                        
+                        <!-- Botón de play superpuesto -->
+                        <div onclick="if(typeof openVideoModal === 'function') { openVideoModal('98gW1BwePnU', 'Rendición de Cuentas 2024', 'Conoce nuestro trabajo y compromiso con la transparencia'); }">
+                            <i class="bx bx-play"></i>
+                        </div>
+                    </div>
+                    
+                    <!-- Efecto de brillo sutil -->
+                    <div class="video-glow"></div>
+                </div>
+                
+                            </div>
+            </div>
+        </section>
+        
+        <!-- CONTENIDO EDUCATIVO -->
+        <section class="educational-content-section section-container">
+            <div class="section-content">
+                <div class="container">
+                <div>
+                    <h2>Te Enseñamos Cómo</h2>
+                    <p>Conoce nuestros servicios a través de nuestro contenido audiovisual</p>
+                </div>
+                            
+                <div class="videos-grid">
+                    <!-- Video 1 -->
+                    <div class="video-card" data-video-id="vnkx2L3K6yA" data-video-title="Registro de la Propiedad: Antes y Después" data-video-description="La evolución de nuestro edificio para ofrecerte mejores servicios registrales en Santo Domingo." onclick="openVideoModal('vnkx2L3K6yA', 'Registro de la Propiedad: Antes y Después', 'La evolución de nuestro edificio para ofrecerte mejores servicios registrales en Santo Domingo.')">
+                        <div class="video-thumbnail">
+                            <img id="thumbnail-vnkx2L3K6yA" src="https://img.youtube.com/vi/vnkx2L3K6yA/maxresdefault.jpg" alt="Registro de la Propiedad: Antes y Después">
+                            <div class="play-overlay">
+                                <i class='bx bx-play'></i>
+                            </div>
+                        </div>
+                        <h3>Registro de la Propiedad: Antes y Después</h3>
+                        <p>La evolución de nuestro edificio para ofrecerte mejores servicios registrales en Santo Domingo.</p>
+                    </div>
+            
+                    <!-- Video 2 -->
+                    <div class="video-card" data-video-id="7rWAXrBODlQ" data-video-title="Acercamos Servicios a la Zona Rural" data-video-description="Nueva plataforma en San Jacinto de Búa. Acercamos los servicios registrales a la zona rural en alianza con el Municipio. Construyendo un futuro más accesible para todos." onclick="openVideoModal('7rWAXrBODlQ', 'Acercamos Servicios a la Zona Rural', 'Nueva plataforma en San Jacinto de Búa. Acercamos los servicios registrales a la zona rural en alianza con el Municipio. Construyendo un futuro más accesible para todos.')">
+                        <div class="video-thumbnail">
+                            <img id="thumbnail-7rWAXrBODlQ" src="https://img.youtube.com/vi/7rWAXrBODlQ/maxresdefault.jpg" alt="Acercamos Servicios a la Zona Rural">
+                            <div class="play-overlay">
+                                <i class='bx bx-play'></i>
+                            </div>
+                        </div>
+                        <h3>Acercamos Servicios a la Zona Rural</h3>
+                        <p>Nueva plataforma en San Jacinto de Búa. Acercamos los servicios registrales a la zona rural en alianza con el Municipio. Construyendo un futuro más accesible para todos.</p>
+                    </div>
+                    
+                    <!-- Video 3 -->
+                    <div class="video-card" data-video-id="bX8ZU4DOECc" data-video-title="Código QR de Validación para tus Documentos Registrales" data-video-description="Verifica la autenticidad de tus documentos registrales al instante con tecnología QR" onclick="openVideoModal('bX8ZU4DOECc', 'Código QR de Validación para tus Documentos Registrales', 'Verifica la autenticidad de tus documentos registrales al instante con tecnología QR')">
+                        <div class="video-thumbnail">
+                            <img id="thumbnail-bX8ZU4DOECc" src="https://img.youtube.com/vi/bX8ZU4DOECc/maxresdefault.jpg" alt="Código QR de Validación para tus Documentos Registrales">
+                            <div class="play-overlay">
+                                <i class='bx bx-play'></i>
+                            </div>
+                        </div>
+                        <h3>Código QR de Validación para tus Documentos Registrales</h3>
+                        <p>Verifica la autenticidad de tus documentos registrales al instante con tecnología QR</p>
+                    </div>
+                </div>
+            </div>
+            
+                <div class="youtube-link-container">
+                    <a href="https://www.youtube.com/@epmregistrodelapropiedadsa2548" target="_blank" class="btn btn-primary youtube-btn">
+                        <i class='bx bxl-youtube'></i>
+                        Ver más en YouTube
+                    </a>
+                </div>
+            </div>
+            </div>
+        </section>
+        
+        <!-- DATOS RELEVANTES -->
+        <section class="datos-relevantes-section section-container">
+            <div class="section-content">
+            <div class="container">
+                <div>
+                    <h2>Datos Relevantes</h2>
+                    <p>Números que reflejan nuestro compromiso y experiencia al servicio de Santo Domingo</p>
+                                </div>
+                            
+                <div class="datos-grid">
+                    <div class="dato-card">
+                        <div class="dato-icon">
+                            <i class='bx bx-time-five'></i>
+                                </div>
+                        <div class="dato-number" data-target="58">0</div>
+                        <div class="dato-label">Años al servicio<br>de Santo Domingo</div>
+                            </div>
+                            
+                    <div class="dato-card">
+                        <div class="dato-icon">
+                            <i class='bx bx-book-open'></i>
+                                </div>
+                        <div class="dato-number" data-target="1000" data-prefix="+">0</div>
+                        <div class="dato-label">Libros registrales<br>digitalizados</div>
+                    </div>
+                            
+                    <div class="dato-card">
+                        <div class="dato-icon">
+                            <i class='bx bx-file-blank'></i>
+                    </div>
+                        <div class="dato-number" data-target="1000000" data-prefix="+">0</div>
+                        <div class="dato-label">Certificaciones<br>entregadas</div>
+                    </div>
+                    
+                    <div class="dato-card">
+                        <div class="dato-icon">
+                            <i class='bx bx-edit-alt'></i>
+                    </div>
+                        <div class="dato-number" data-target="800000" data-prefix="+">0</div>
+                        <div class="dato-label">Inscripciones<br>realizadas</div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- ANIMACIÓN DE PROCESO - TREN -->
+        <section class="digital-registry-process section-container">
+            <div class="section-content">
+            <div class="container">
+                <div>
+                    <h2>Sistema Digital de Registro</h2>
+                    <p>Observa cómo tu documentación fluye a través de nuestro sistema registral TENKA hasta completar el registro de tu propiedad</p>
+                </div>
+                
+                <div class="process-flow-container">
+                    <div class="process-timeline"></div>
+        
+                    <div id="moving-mini-document" class="moving-mini-document">
+                        <div class="lines">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                    </div>
+        
+                    <div class="process-station" data-position="15">
+                        <div class="icon-wrapper">
+                            <i class='bx bxs-file-import'></i> </div>
+                        <div class="station-label">Recepción de Documentos</div>
+                    </div>
+        
+                    <div class="process-station" data-position="38">
+                        <div class="icon-wrapper">
+                            <i class='bx bx-search-alt'></i> </div>
+                        <div class="station-label">Análisis Legal</div>
+                    </div>
+        
+                    <div class="process-station" data-position="61">
+                        <div class="icon-wrapper">
+                            <i class='bx bx-check-circle'></i> </div>
+                        <div class="station-label">Verificación</div>
+                    </div>
+        
+                    <div class="process-station" data-position="84">
+                        <div class="icon-wrapper">
+                            <i class='bx bxs-institution'></i> </div>
+                        <div class="station-label">Registro Final</div>
+                        <i class='bx bx-check-double final-check-icon'></i>
+                    </div>
+        
+                </div>
+            </div>
+            </div>
+        </section>
+        
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                const documentElement = document.getElementById('moving-mini-document');
+                const stations = document.querySelectorAll('.process-station');
+                const finalCheckIcon = document.querySelector('.final-check-icon');
+                let currentStationIndex = 0;
+                let animationStarted = false;
+        
+                const moveDocumentToStation = () => {
+                    if (currentStationIndex < stations.length) {
+                        const targetPosition = stations[currentStationIndex].getAttribute('data-position');
+                        documentElement.style.left = targetPosition + '%';
+                        
+                        // Activar el efecto hover en la estación actual
+                        const currentStation = stations[currentStationIndex];
+                        currentStation.classList.add('active-station');
+                        
+                        // Remover el efecto de la estación anterior
+                        stations.forEach((station, index) => {
+                            if (index !== currentStationIndex) {
+                                station.classList.remove('active-station');
+                            }
+                        });
+                        
+                        currentStationIndex++;
+        
+                        if (currentStationIndex <= stations.length) { // Usamos <= para asegurar el último paso
+                            setTimeout(moveDocumentToStation, 2000); // Espera 2 segundos en cada estación
+                        }
+                    } else {
+                        // Remover todos los efectos activos antes del check final
+                        stations.forEach(station => {
+                            station.classList.remove('active-station');
+                        });
+                        
+                        // La animación ha terminado, muestra el icono de check final
+                        setTimeout(() => {
+                            finalCheckIcon.classList.add('show');
+                            
+                            // Después de mostrar el check, reinicia la animación
+                            setTimeout(() => {
+                                finalCheckIcon.classList.remove('show');
+                                
+                                // Cambiar el documento para que pase por detrás durante el reinicio
+                                documentElement.classList.add('behind');
+                                
+                                currentStationIndex = 0;
+                                documentElement.style.left = '0%';
+                                
+                                // Después de que el documento regrese al inicio, quitar la clase behind
+                                setTimeout(() => {
+                                    documentElement.classList.remove('behind');
+                                }, 1500); // Esperar a que termine la transición de regreso
+                                
+                                setTimeout(moveDocumentToStation, 1000); // Reinicia después de 1 segundo
+                            }, 2000); // Mantiene el check visible por 2 segundos
+                        }, 1000); // Retraso para que el documento se asiente
+                    }
+                };
+        
+                const startAnimation = () => {
+                    if (!animationStarted) {
+                        animationStarted = true;
+                        documentElement.style.left = '0%';
+                        setTimeout(moveDocumentToStation, 500);
+                    }
+                };
+        
+                // Inicia la animación cuando la sección es visible en la pantalla
+                const observer = new IntersectionObserver((entries) => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            startAnimation();
+                        } else {
+                            // Opcional: pausar la animación cuando no es visible
+                            // animationStarted = false;
+                        }
+                    });
+                }, { 
+                    threshold: 0.5,
+                    rootMargin: '0px' // Sin margen para evitar scroll automático
+                }); // Inicia la animación cuando el 50% de la sección es visible
+        
+                const processSection = document.querySelector('.digital-registry-process');
+                if (processSection) {
+                    observer.observe(processSection);
+                }
+            });
+        </script>
+        
+        <!-- SCRIPT PARA CONTADORES ANIMADOS -->
+        <script>
+            // Función para animar contadores
+            function animateCounters() {
+                const counters = document.querySelectorAll('.dato-number');
+                
+                counters.forEach((counter, index) => {
+                    const target = parseInt(counter.getAttribute('data-target'));
+                    const prefix = counter.getAttribute('data-prefix') || '';
+                    const duration = 2500; // 2.5 segundos para todos
+                    const startTime = Date.now() + (index * 200); // Delay escalonado
+                    
+                    // Asegurar que empiece desde 0
+                    counter.textContent = prefix + '0';
+                    
+                    const updateCounter = () => {
+                        const elapsed = Date.now() - startTime;
+                        const progress = Math.min(elapsed / duration, 1);
+                        
+                        // Easing suave para todos los contadores
+                        const easeOutQuart = 1 - Math.pow(1 - progress, 4);
+                        const current = Math.floor(target * easeOutQuart);
+                        
+                        if (progress < 1) {
+                            // Mostrar números completos con separadores de miles
+                            const formattedNumber = current.toLocaleString('es-ES');
+                            counter.textContent = prefix + formattedNumber;
+                            requestAnimationFrame(updateCounter);
+                        } else {
+                            // Asegurar que termine en el número exacto
+                            const formattedNumber = target.toLocaleString('es-ES');
+                            counter.textContent = prefix + formattedNumber;
+                        }
+                    };
+                    
+                    // Iniciar animación con delay escalonado
+                    setTimeout(() => {
+                        updateCounter();
+                    }, index * 200);
+                });
+            }
+            
+            // Intersection Observer para activar la animación cuando la sección sea visible
+            const observerOptions = {
+                threshold: 0.3
+                // rootMargin eliminado para evitar scroll automático
+            };
+            
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        // Pequeño delay para que se vea mejor
+                        setTimeout(() => {
+                            animateCounters();
+                        }, 500);
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, observerOptions);
+            
+            // Observar la sección de datos relevantes
+            document.addEventListener('DOMContentLoaded', function() {
+                const datosSection = document.querySelector('.datos-relevantes-section');
+                if (datosSection) {
+                    observer.observe(datosSection);
+                }
+            });
+        </script>
+        
+        <!-- CONTACTO EN FOOTER -->
+        <!-- (Sección de contacto movida al footer) -->
+    </main>
+    
+    <!-- MODAL DE SERVICIOS -->
+    <div id="serviceModal" class="service-modal">
+        <div class="modal-content">
+            <button class="modal-close">&times;</button>
+            <div class="modal-header">
+                <div class="modal-icon">
+                    <i class='bx bx-file-blank'></i>
+                </div>
+                <h2 id="modalTitle"></h2>
+            </div>
+            <div class="modal-body">
+                <div id="modalDescription"></div>
+                <div class="modal-features">
+                    <h3>Características del servicio:</h3>
+                    <ul id="modalFeatures">
+                        <!-- Las características se llenarán dinámicamente -->
+                    </ul>
+                </div>
+                <div class="modal-actions">
+                    <a href="#" id="modalSolicitar" class="btn btn-primary">Solicitar Servicio</a>
+                    <a href="servicios.html" class="btn btn-secondary">Ver más servicios</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL DE UBICACIONES -->
+    <div id="locationsModal" class="locations-modal">
+        <div class="locations-modal-content">
+            <div class="locations-modal-header">
+                <h2>Nuestros Puntos de Atención</h2>
+                <button onclick="closeLocationsModal()">&times;</button>
+            </div>
+            
+            <div class="locations-grid">
+                <!-- MATRIZ -->
+                <div class="location-card">
+                    <div>
+                        <div>
+                            <i class='bx bx-building'></i>
+                        </div>
+                        <h3>MATRIZ</h3>
+                    </div>
+                </div>
+
+                <!-- AGENCIA MERCADO MUNICIPAL -->
+                <div class="location-card">
+                    <div>
+                        <div>
+                            <i class='bx bx-store'></i>
+                        </div>
+                        <h3>AGENCIA MERCADO MUNICIPAL</h3>
+                    </div>
+                </div>
+
+                <!-- TERMINAL TERRESTRE -->
+                <div class="location-card">
+                    <div>
+                        <div>
+                            <i class='bx bx-bus'></i>
+                        </div>
+                        <h3>TERMINAL TERRESTRE</h3>
+                    </div>
+                </div>
+
+                <!-- PALACIO DE JUSTICIA -->
+                <div class="location-card">
+                    <div>
+                        <div>
+                            <i class='bx bx-building'></i>
+                        </div>
+                        <h3>PALACIO DE JUSTICIA</h3>
+                    </div>
+                </div>
+
+                <!-- PARROQUIAS RURALES -->
+                <div class="location-card" style="grid-column: 1 / -1;">
+                    <div>
+                        <div>
+                            <i class='bx bx-map'></i>
+                        </div>
+                        <h3>PARROQUIAS RURALES</h3>
+                    </div>
+                    <div>
+                        <p>• GAD Parroquial Alluriquín</p>
+                        <p>• GAD Parroquial El Esfuerzo</p>
+                        <p>• GAD Parroquial Puerto Limón</p>
+                        <p>• GAD Parroquial Luz de América</p>
+                        <p>• GAD Parroquial Valle Hermoso</p>
+                        <p>• GAD Parroquial San Jacinto del Búa</p>
+                        <p>• GAD Parroquial Santa María del Toachi</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL DE VIDEO -->
+    <div id="videoModal" class="video-modal">
+        <div class="video-modal-content">
+            <div class="video-modal-header">
+                <h3 id="videoModalTitle"></h3>
+                <button onclick="closeVideoModal()">
+                    <i class='bx bx-x'></i>
+                </button>
+            </div>
+            <div class="video-modal-body">
+                <iframe 
+                    id="videoModalIframe"
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+                </iframe>
+            </div>
+            <div class="video-modal-footer">
+                <p id="videoModalDescription"></p>
+            </div>
+        </div>
+    </div>
+    
+    <!-- FOOTER -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="footer-contact-mini">
+                        <div><b>Dirección:</b> Urb. Colegial Av. Luis A Valencia y Arturo Borja, Santo Domingo</div>
+                        <div><b>Email:</b><br><a href="mailto:atencionciudadana@registrodelapropiedadsd.gob.ec">atencionciudadana@registrodelapropiedadsd.gob.ec</a></div>
+                        <div><b>Teléfono:</b> 02 2751 256 / 2751 266 ext 113 / 100</div>
+                        <div><b>Horario:</b> Lunes a Viernes: 08:00 - 17:00</div>
+                        <div class="footer-contact-actions">
+                            <a href="mailto:atencionciudadana@registrodelapropiedadsd.gob.ec" class="btn btn-secondary"><i class='bx bx-envelope'></i> Enviar correo</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4 class="footer-title">Navegación</h4>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="quienes-somos.html">Institución</a></li>
+                        <li><a href="https://servicios.registrodelapropiedadsd.gob.ec/ventanilla/login.xhtml" target="_blank">Ventanilla Online</a></li>
+                        <li><a href="servicios.html">Servicios</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                        <li><a href="transparencia.html">Transparencia</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4 class="footer-title">Legal</h4>
+                    <ul>
+                        <li><a href="#">Términos de Uso</a></li>
+                        <li><a href="#">Política de Privacidad</a></li>
+                        <li><a href="#">Base Legal</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4 class="footer-title">Empresas Municipales</h4>
+                    <ul>
+                        <li><a href="https://www.santodomingo.gob.ec/" target="_blank">Municipio de Santo Domingo</a></li>
+                        <li><a href="https://www.epmtsd.gob.ec/" target="_blank">Empresa de Tránsito</a></li>
+                        <li><a href="https://epconst.gob.ec/" target="_blank">EPCONST</a></li>
+                        <li><a href="https://epmapasd.gob.ec/" target="_blank">EPMAPA</a></li>
+                        <li><a href="https://patronatosd.gob.ec/" target="_blank">Patronato Municipal</a></li>
+                        <li><a href="https://www.bomberossantodomingo.gob.ec/" target="_blank">Cuerpo de Bomberos</a></li>
+                        <li><a href="https://ccpdsantodomingo.gob.ec/" target="_blank">CCPD</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/registrodelapropiedadsd?igsh=MTYxc2xhdmtsd2dqdQ==" target="_blank" aria-label="Instagram"><i class='bx bxl-instagram'></i></a>
+                        <a href="https://www.facebook.com/share/16vwh6wnyC/" target="_blank" aria-label="Facebook"><i class='bx bxl-facebook'></i></a>
+                        <a href="https://www.tiktok.com/@registrodelapropiedadsd?_t=ZM-8zYtklo2kQ4&_r=1" target="_blank" aria-label="TikTok"><i class='bx bxl-tiktok'></i></a>
+                        <a href="https://www.youtube.com/@epmregistrodelapropiedadsa2548" target="_blank" aria-label="YouTube"><i class='bx bxl-youtube'></i></a>
+                    </div>
+                    <p>&copy; 2025 - EPMRP-SD | Desarrollado para una gestión pública moderna.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Widget flotante de WhatsApp -->
+    <div class="willybot-float" id="willybot-float" title="¡Hola! ¿Necesitas ayuda?">
+        <img src="assets/willybot.png" alt="Willy Bot Asistente Virtual" class="willybot-float-img">
+        <div class="willybot-float-msg" id="willybot-float-msg">¡Hola! Soy Willy Bot<br>¿Cómo puedo ayudarte?</div>
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuToggle = document.getElementById('mobile-menu-toggle');
+            const mainNav = document.getElementById('main-nav');
+            if (mobileMenuToggle && mainNav) {
+                mobileMenuToggle.addEventListener('click', function() {
+                    mainNav.classList.toggle('active');
+                    if (mobileMenuToggle.classList.contains('bx-menu')) {
+                        mobileMenuToggle.classList.remove('bx-menu');
+                        mobileMenuToggle.classList.add('bx-x');
+                    } else {
+                        mobileMenuToggle.classList.remove('bx-x');
+                        mobileMenuToggle.classList.add('bx-menu');
+                    }
+                });
+            }
+            // Loader
+            setTimeout(function() {
+                document.getElementById('loader').style.opacity = 0;
+                setTimeout(function() {
+                    document.getElementById('loader').style.display = 'none';
+                    // Mostrar el widget de Willy Bot después de cargar la página
+                    const willyBot = document.getElementById('willybot-float');
+                    if (willyBot) {
+                        willyBot.style.display = 'flex';
+                        setTimeout(() => willyBot.classList.add('visible'), 50);
+                    }
+                }, 500);
+            }, 2000);
+
+
+            // Modal de servicios
+            const serviceModal = document.getElementById('serviceModal');
+            const modalClose = document.querySelector('.modal-close');
+            const modalTitle = document.getElementById('modalTitle');
+            const modalDescription = document.getElementById('modalDescription');
+            const modalFeatures = document.getElementById('modalFeatures');
+            const modalSolicitar = document.getElementById('modalSolicitar');
+            const modalIcon = document.querySelector('.modal-icon i');
+
+            // Datos de los servicios
+            const servicesData = {
+                'certificado-gravamen': {
+                    title: 'Certificado de Gravamen',
+                    description: 'Emisión de certificados generales, historia de dominio y gravamen de tu bien inmueble con validez legal.',
+                    icon: 'bx-file-blank',
+                    features: [
+                        'Certificado general de gravamen',
+                        'Historia de dominio completa',
+                        'Validez legal garantizada',
+                        'Emisión inmediata online',
+                        'Costo accesible'
+                    ],
+                    url: 'servicios.html'
+                },
+                'certificado-bienes': {
+                    title: 'Certificado de Bienes',
+                    description: 'Consulta y certifica los bienes inmuebles inscritos a tu nombre en Santo Domingo de forma segura.',
+                    icon: 'bx-home',
+                    features: [
+                        'Consulta de bienes inmuebles',
+                        'Certificación oficial',
+                        'Información actualizada',
+                        'Proceso seguro y confiable',
+                        'Disponible 24/7'
+                    ],
+                    url: 'servicios.html'
+                },
+                'formulario-solicitud': {
+                    title: 'Formulario de Solicitud',
+                    description: 'Accede a los formularios para iniciar tus trámites registrales de manera ágil y segura en línea.',
+                    icon: 'bx-edit',
+                    features: [
+                        'Formularios digitales',
+                        'Proceso ágil y seguro',
+                        'Guía paso a paso',
+                        'Validación automática',
+                        'Envío directo al sistema'
+                    ],
+                    url: 'https://servicios.registrodelapropiedadsd.gob.ec/ventanilla/login.xhtml'
+                },
+                'puntos-atencion': {
+                    title: 'Puntos de Atención',
+                    description: 'Oficina Matriz, Mercado Municipal y 7 Parroquias Rurales. ¡Estamos cerca de ti!',
+                    icon: 'bx-map',
+                    features: [
+                        'Oficina Matriz central',
+                        'Mercado Municipal',
+                        '7 Parroquias Rurales',
+                        'Horarios extendidos',
+                        'Personal capacitado'
+                    ],
+                    url: 'contacto.html'
+                }
+            };
+
+            function openServiceModal(serviceId) {
+                const service = servicesData[serviceId];
+                if (!service) return;
+
+                modalTitle.textContent = service.title;
+                modalDescription.textContent = service.description;
+                modalIcon.className = `bx ${service.icon}`;
+                modalSolicitar.href = service.url;
+
+                // Limpiar características anteriores
+                modalFeatures.innerHTML = '';
+
+                // Agregar características
+                service.features.forEach(feature => {
+                    const li = document.createElement('li');
+                    li.style.cssText = 'display: flex; align-items: center; margin-bottom: 10px; padding: 8px 0; color: #333;';
+                    li.innerHTML = `
+                        <i class='bx bx-check' style='color: #3B82F6; font-size: 1.2rem; margin-right: 10px;'></i>
+                        <span>${feature}</span>
+                    `;
+                    modalFeatures.appendChild(li);
+                });
+
+                // Mostrar modal
+                serviceModal.style.display = 'flex';
+                setTimeout(() => {
+                    serviceModal.style.opacity = '1';
+                    document.querySelector('.modal-content').style.transform = 'scale(1)';
+                }, 10);
+            }
+
+            function closeServiceModal() {
+                serviceModal.style.opacity = '0';
+                document.querySelector('.modal-content').style.transform = 'scale(0.8)';
+                setTimeout(() => {
+                    serviceModal.style.display = 'none';
+                }, 300);
+            }
+
+
+            // Event listeners para cerrar modal
+            modalClose.addEventListener('click', closeServiceModal);
+            serviceModal.addEventListener('click', function(e) {
+                if (e.target === serviceModal) {
+                    closeServiceModal();
+                }
+            });
+
+            // Cerrar modal con tecla ESC
+            document.addEventListener('keydown', function(e) {
+                if (e.key === 'Escape' && serviceModal.style.display === 'flex') {
+                    closeServiceModal();
+                }
+            });
+
+            // Mejorar experiencia del video de YouTube
+            const youtubeIframe = document.querySelector('.video-wrapper iframe');
+            if (youtubeIframe) {
+                // Agregar evento de carga del iframe
+                youtubeIframe.addEventListener('load', function() {
+                    console.log('Video de YouTube cargado correctamente');
+                });
+
+                // Mejorar la accesibilidad del video
+                youtubeIframe.setAttribute('aria-label', 'Video de Rendición de Cuentas 2024');
+                
+                // Verificar que el iframe esté visible
+                youtubeIframe.style.display = 'block';
+                youtubeIframe.style.visibility = 'visible';
+            }
+
+            // Funciones para el modal de video - GLOBALES
+            window.openVideoModal = function(videoId, title, description) {
+                console.log('Abriendo modal para video:', videoId); // Debug
+                
+                const videoModal = document.getElementById('videoModal');
+                const videoModalTitle = document.getElementById('videoModalTitle');
+                const videoModalDescription = document.getElementById('videoModalDescription');
+                const videoModalIframe = document.getElementById('videoModalIframe');
+                
+                if (!videoModal || !videoModalTitle || !videoModalDescription || !videoModalIframe) {
+                    console.error('Elementos del modal no encontrados');
+                    return;
+                }
+                
+                // Configurar el contenido del modal
+                videoModalTitle.textContent = title;
+                videoModalDescription.textContent = description;
+                videoModalIframe.src = `https://www.youtube.com/embed/${videoId}?autoplay=1&rel=0&modestbranding=1&showinfo=1&enablejsapi=1`;
+                
+                // Mostrar el modal
+                videoModal.style.display = 'block';
+                videoModal.style.opacity = '0';
+                document.body.style.overflow = 'hidden'; // Prevenir scroll del body
+                
+                // Animación de entrada
+                setTimeout(() => {
+                    videoModal.style.opacity = '1';
+                }, 10);
+            }
+
+            window.closeVideoModal = function() {
+                const videoModal = document.getElementById('videoModal');
+                const videoModalIframe = document.getElementById('videoModalIframe');
+                
+                // Pausar el video
+                videoModalIframe.src = '';
+                
+                // Ocultar el modal
+                videoModal.style.opacity = '0';
+                document.body.style.overflow = 'auto'; // Restaurar scroll del body
+                
+                setTimeout(() => {
+                    videoModal.style.display = 'none';
+                }, 300);
+            }
+
+            // Cerrar modal al hacer clic fuera de él
+            document.addEventListener('click', function(e) {
+                const videoModal = document.getElementById('videoModal');
+                if (e.target === videoModal) {
+                    closeVideoModal();
+                }
+            });
+
+            // Cerrar modal con tecla Escape
+            document.addEventListener('keydown', function(e) {
+                if (e.key === 'Escape') {
+                    const videoModal = document.getElementById('videoModal');
+                    if (videoModal && videoModal.style.display === 'block') {
+                        closeVideoModal();
+                    }
+                }
+            });
+
+            // Verificar que las funciones estén disponibles
+            console.log('openVideoModal disponible:', typeof window.openVideoModal);
+            console.log('closeVideoModal disponible:', typeof window.closeVideoModal);
+            
+            // Asegurar que las funciones estén disponibles globalmente
+            if (typeof window.openVideoModal !== 'function') {
+                console.error('openVideoModal no está disponible');
+            }
+            if (typeof window.closeVideoModal !== 'function') {
+                console.error('closeVideoModal no está disponible');
+            }
+            
+            // Agregar evento de clic alternativo al botón de play
+            const playButton = document.querySelector('.youtube-video-container .video-wrapper > div:last-child');
+            if (playButton) {
+                playButton.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    console.log('Evento de clic en botón de play activado');
+                    if (typeof window.openVideoModal === 'function') {
+                        window.openVideoModal('98gW1BwePnU', 'Rendición de Cuentas 2024', 'Conoce nuestro trabajo y compromiso con la transparencia');
+                    } else {
+                        console.error('openVideoModal no está disponible en el evento');
+                    }
+                });
+            }
+
+
+            // Event listeners para las tarjetas de video - Inmediato
+            const videoCards = document.querySelectorAll('.video-card[data-video-id]');
+            
+            videoCards.forEach(card => {
+                card.addEventListener('click', function() {
+                    const videoId = this.getAttribute('data-video-id');
+                    const title = this.getAttribute('data-video-title');
+                    const description = this.getAttribute('data-video-description');
+                    
+                    console.log('Click en video:', videoId, title); // Debug
+                    openVideoModal(videoId, title, description);
+                });
+            });
+
+            // Sistema de carga de miniaturas optimizado
+            function loadYouTubeThumbnails() {
+                console.log('🎬 Iniciando carga de miniaturas de YouTube...');
+                
+                const videoIds = ['vnkx2L3K6yA', '7rWAXrBODlQ', 'bX8ZU4DOECc'];
+                
+                videoIds.forEach(videoId => {
+                    const img = document.getElementById(`thumbnail-${videoId}`);
+                    if (img) {
+                        console.log(`📸 Cargando miniatura para: ${videoId}`);
+                        
+                        // Asegurar que la imagen sea visible
+                        img.style.display = 'block';
+                        img.style.opacity = '1';
+                        img.style.visibility = 'visible';
+                        img.style.position = 'absolute';
+                        img.style.top = '0';
+                        img.style.left = '0';
+                        img.style.width = '100%';
+                        img.style.height = '100%';
+                        img.style.objectFit = 'cover';
+                        img.style.borderRadius = '15px';
+                        
+                        // Forzar carga de la imagen
+                        const originalSrc = img.src;
+                        img.src = '';
+                        setTimeout(() => {
+                            img.src = originalSrc;
+                            console.log(`✅ Miniatura cargada para: ${videoId}`);
+                        }, 100);
+                    }
+                });
+            }
+
+            // Ejecutar inmediatamente cuando el DOM esté listo
+            if (document.readyState === 'loading') {
+                document.addEventListener('DOMContentLoaded', loadYouTubeThumbnails);
+            } else {
+                loadYouTubeThumbnails();
+            }
+
+            // Ejecutar también con un pequeño delay para asegurar
+            setTimeout(loadYouTubeThumbnails, 200);
+
+            // Efectos hover sutiles (sin líneas negras)
+            function addThumbnailEffects() {
+                const videoCards = document.querySelectorAll('.video-card');
+                
+                videoCards.forEach(card => {
+                    const thumbnail = card.querySelector('.video-thumbnail');
+                    const img = thumbnail.querySelector('img');
+                    const playOverlay = thumbnail.querySelector('.play-overlay');
+                    
+                    if (img && playOverlay) {
+                        // Efecto hover sutil (sin agrandar la imagen)
+                        card.addEventListener('mouseenter', function() {
+                            // Solo agrandar el botón play, no la imagen
+                            playOverlay.style.transform = 'translate(-50%, -50%) scale(1.1)';
+                            playOverlay.style.transition = 'transform 0.3s ease';
+                            
+                            // Efecto sutil en la imagen (opacidad en lugar de escala)
+                            img.style.filter = 'brightness(1.1)';
+                            img.style.transition = 'filter 0.3s ease';
+                        });
+                        
+                        card.addEventListener('mouseleave', function() {
+                            // Restaurar el botón play
+                            playOverlay.style.transform = 'translate(-50%, -50%) scale(1)';
+                            
+                            // Restaurar la imagen
+                            img.style.filter = 'brightness(1)';
+                        });
+                    }
+                });
+            }
+
+            // Ejecutar efectos después de cargar las miniaturas
+            setTimeout(addThumbnailEffects, 500);
+
+            // Event listeners para cerrar el modal de video
+            const videoModal = document.getElementById('videoModal');
+            if (videoModal) {
+                videoModal.addEventListener('click', function(e) {
+                    if (e.target === this) {
+                        closeVideoModal();
+                    }
+                });
+                
+                // Event listener específico para el botón X
+                const closeButton = videoModal.querySelector('button[onclick="closeVideoModal()"]');
+                if (closeButton) {
+                    closeButton.addEventListener('click', function(e) {
+                        e.stopPropagation();
+                        closeVideoModal();
+                    });
+                }
+            }
+
+            // Cerrar modal de video con tecla ESC
+            document.addEventListener('keydown', function(e) {
+                if (e.key === 'Escape') {
+                    const videoModal = document.getElementById('videoModal');
+                    if (videoModal.style.display === 'block') {
+                        closeVideoModal();
+                    }
+                }
+            });
+
+            // Animación de éxito cuando las personas llegan al final
+            const successAnimation = document.querySelector('.success-animation');
+            const movingDocument = document.querySelector('.moving-document');
+            
+            if (successAnimation && movingDocument) {
+                // Detectar cuando el documento llega al final (85% de la animación)
+                const observer = new MutationObserver(() => {
+                    const computedStyle = window.getComputedStyle(movingDocument);
+                    const left = parseFloat(computedStyle.left);
+                    const trackWidth = document.querySelector('.train-track').offsetWidth;
+                    const percentage = (left / trackWidth) * 100;
+                    
+                    if (percentage >= 80 && !successAnimation.classList.contains('show')) {
+                        successAnimation.classList.add('show');
+                    }
+                });
+                
+                observer.observe(movingDocument, {
+                    attributes: true,
+                    attributeFilter: ['style']
+                });
+            }
+
+            // Animación y atención para Willy Bot flotante
+            const willyBot = document.getElementById('willybot-float');
+            const willyMsg = document.getElementById('willybot-float-msg');
+            if (willyBot) {
+                // Movimiento animado (rebote)
+                willyBot.animate([
+                    { transform: 'translateY(0)' },
+                    { transform: 'translateY(-12px)' },
+                    { transform: 'translateY(0)' }
+                ], {
+                    duration: 1800,
+                    iterations: Infinity,
+                    easing: 'ease-in-out'
+                });
+                // Mensaje aparece/desaparece
+                setTimeout(() => { willyMsg.classList.add('show'); }, 1200);
+                willyBot.addEventListener('mouseenter', () => {
+                    willyMsg.classList.add('show');
+                });
+                willyBot.addEventListener('mouseleave', () => {
+                    willyMsg.classList.remove('show');
+                });
+                willyBot.addEventListener('click', () => {
+                    window.open('https://wa.me/593961930000', '_blank');
+                });
+            }
+        });
+
+        // Funciones para el modal de ubicaciones (globales)
+        function openLocationsModal() {
+            const locationsModal = document.getElementById('locationsModal');
+            
+            // Mostrar modal
+            locationsModal.style.display = 'block';
+            locationsModal.style.opacity = '0';
+            
+            // Animar entrada
+            setTimeout(() => {
+                locationsModal.style.opacity = '1';
+            }, 10);
+            
+            // Prevenir scroll del body
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeLocationsModal() {
+            const locationsModal = document.getElementById('locationsModal');
+            
+            // Cerrar modal con animación
+            locationsModal.style.opacity = '0';
+            setTimeout(() => {
+                locationsModal.style.display = 'none';
+                // Restaurar scroll del body
+                document.body.style.overflow = 'auto';
+            }, 300);
+        }
+
+        // Cerrar modal al hacer clic fuera del contenido
+        document.addEventListener('click', function(event) {
+            const locationsModal = document.getElementById('locationsModal');
+            
+            if (event.target === locationsModal) {
+                closeLocationsModal();
+            }
+        });
+
+        // Cerrar modal con tecla Escape
+        document.addEventListener('keydown', function(event) {
+            if (event.key === 'Escape') {
+                const locationsModal = document.getElementById('locationsModal');
+                if (locationsModal && locationsModal.style.display === 'block') {
+                    closeLocationsModal();
+                }
+            }
+        });
+    </script>
+    
+    <!-- JavaScript para loop suave al final del video -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const videoIframe = document.querySelector('.hero-video');
+            if (videoIframe) {
+                // El iframe de YouTube ya tiene autoplay y loop configurados
+                console.log('Video de YouTube de fondo cargado');
+                
+                // Asegurar que el iframe mantenga sus dimensiones
+                videoIframe.style.width = '100%';
+                videoIframe.style.height = '100%';
+                videoIframe.style.objectFit = 'cover';
+            }
+        });
+    </script>
+    
+    <script src="js/main.js"></script>
+</body>
+</html> 
+</html> 
+
